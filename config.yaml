@@ -1,0 +1,101 @@
+baseURL: https://loyannec.github.io
+DefaultContentLanguage: en
+languageCode: en-us
+title: Loyanne Repolho
+theme: colordrop
+# enableRobotsTXT: true
+disqusShortname: loyannec-com
+googleAnalytics: UA-167856226-1
+
+author:
+  name: Loyanne Repolho
+  job: Software Engineer, Data Scientist and MD
+  gender: female
+  image: img/me.png
+  github: loyannec
+  twitter: LoyanneC
+  linkedin: loyannec
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: blog/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 3
+  footer:
+    - identifier: github
+      name: github
+      url: "https://github.com/loyannec/"
+      weight: 1
+    - identifier: twitter
+      name: twitter
+      url: "https://twitter.com/LoyanneC/"
+      weight: 2
+    - identifier: linkedin
+      name: linkedin
+      url: "https://www.linkedin.com/in/loyannec/"
+      weight: 3
+    - identifier: keybase
+      name: keybase
+      url: "#"
+      weight: 4
+    - identifier: rss
+      name: rss
+      weight: 5
+    - identifier: curriculum
+      name: curriculum
+      url: curriculum/
+      weight: 6
+    - identifier: email
+      name: email
+      url: "mailto:loyanne.cristine@gmail.com"
+      weight: 7
+
+params:
+  title: Loyanne Repolho
+  description: a blog to share my experiences between personal and professional learning
+  images: img/me.jpg
+  themeColor: "#000000"
+  themeInverseColor: "#ffffff"
+  siteLogo: img/me-100x100.png
+
+  license:
+    name: Attribuition-ShareAlike
+    type: by-sa
+    version: "4.0"
+    locale: en
+    size: 88x31
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+  pt-br:
+    languageName: Português Brasileiro
+    weight: 2
+    params:
+      description: um blog para compartilhar minhas experiências entre aprendizagem pessoal e profissional
+      license:
+        name: Atribuição-CompartilhaIgual
+        type: by-sa
+        version: "4.0"
+        locale: pt_BR
+        size: 88x31
+  es:
+    languageName: Spanish
+    weight: 3
+    params:
+      description: un blog para compartir mis experiencias entre el aprendizaje personal y profesional
+      license:
+        name: Attribution - Partage dans les Mêmes Conditions
+        type: by-sa
+        version: "4.0"
+        locale: fr
+        size: 88x31
