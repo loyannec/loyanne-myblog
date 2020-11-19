@@ -1,11 +1,18 @@
 baseURL: https://loyannec.io/
-DefaultContentLanguage: en
-languageCode: en-us
-title: Loyanne Repolho
 theme: colordrop
-# enableRobotsTXT: true
-disqusShortname: loyannec-com
+defaultContentLanguage: en
+copyright: Everything is mine
 googleAnalytics: UA-167856226-1
+disqusShortname: loyannec-com
+languageCode: en-us
+title: Loyanne Repolho # your site title
+description: I am a medical programmer, Data Science enthusiast who loves to share and exchange experiences, whether about career, medicine, technology or even life, being an immigrant and plants, many plants.
+# enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 author:
   name: Loyanne Repolho
@@ -21,6 +28,10 @@ taxonomies:
 
 menu:
   main:
+    - identifier: about
+      name: About
+      url: about/
+      weight: 1
     - identifier: blog
       name: Blog
       url: blog/
@@ -29,6 +40,10 @@ menu:
       name: Tags
       url: tags/
       weight: 3
+    #- identifier: contact
+    #  name: Contact
+    #  url: contact/
+    #  weight: 4
   footer:
     - identifier: github
       name: github
@@ -42,13 +57,13 @@ menu:
       name: linkedin
       url: "https://www.linkedin.com/in/loyannec/"
       weight: 3
-    - identifier: keybase
-      name: keybase
-      url: "#"
-      weight: 4
-    - identifier: rss
-      name: rss
-      weight: 5
+    #- identifier: keybase
+    #  name: keybase
+    #  url: "#"
+    #  weight: 4
+    #- identifier: rss
+    #  name: rss
+    #  weight: 5
     - identifier: curriculum
       name: curriculum
       url: curriculum/
@@ -57,6 +72,8 @@ menu:
       name: email
       url: "mailto:loyanne.cristine@gmail.com"
       weight: 7
+
+
 
 params:
   title: Loyanne Repolho
